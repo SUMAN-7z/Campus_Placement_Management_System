@@ -96,7 +96,7 @@ const About = () => {
         <section className="p-6 rounded-xl bg-slate-900 border border-slate-800 text-center space-y-4">
           <h3 className="font-bold text-slate-200">Academic Project Context</h3>
           <p className="text-xs text-slate-400 max-w-xl mx-auto">
-            This project has been developed to satisfy BPUT MCA/B.Tech final year project parameters, focusing on enterprise design patterns, secure REST configurations, and clean modular codebases.
+            This project has been developed to focusing on enterprise design patterns, secure REST configurations, and clean modular codebases.
           </p>
           <div className="pt-2">
             <Link to="/" className="text-primary-400 hover:text-primary-300 font-semibold text-xs transition-colors">

@@ -14,19 +14,19 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col justify-between selection:bg-primary-500 selection:text-white">
+    <div className="min-h-screen bg-black text-slate-100">
       {/* Header */}
       <header className="max-w-7xl mx-auto w-full px-6 h-20 flex items-center justify-between border-b border-slate-900">
         <div className="flex items-center space-x-2">
           <Award className="h-8 w-8 text-primary-500" />
-          <span className="font-bold text-lg tracking-wider bg-gradient-to-r from-primary-400 to-indigo-400 bg-clip-text text-transparent">
+          <span className="font-bold text-lg tracking-wider bg-gradient-to-r from-emerald-400 via-cyan-400 to-sky-400 bg-clip-text text-transparent">
             PLACEMENT PORTAL
           </span>
         </div>
         <nav className="flex items-center space-x-6">
           <Link to="/about" className="text-sm text-slate-400 hover:text-slate-200 transition-colors">About</Link>
           {user ? (
-            <Link to={getDashboardPath()} className="text-sm bg-primary-600 hover:bg-primary-500 text-white px-4 py-2 rounded-lg transition-all shadow-lg shadow-primary-500/20 font-medium glow-btn">
+            <Link to={getDashboardPath()} className="text-sm bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg transition-all shadow-lg shadow-primary-500/20 font-medium glow-btn">
               Go to Dashboard
             </Link>
           ) : (
@@ -111,7 +111,7 @@ const Home = () => {
           <div className="flex space-x-4">
             <Link to="/about" className="hover:text-slate-400 transition-colors">Platform Information</Link>
             <span className="text-slate-800">|</span>
-            <span className="text-slate-500">BPUT MCA Project Edition</span>
+            <span className="text-slate-500">MCA Internship</span>
           </div>
         </div>
       </footer>
